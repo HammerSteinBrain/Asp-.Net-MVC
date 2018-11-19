@@ -1,0 +1,24 @@
+﻿@*>>>>>>> NÃO precisou chamar a model ModAluno aqui em cima, pois essa pagina ja recebe como parametro a instancia de modAluno.cs aluno*@
+
+@{
+    ViewBag.Title = "Exibe Cadastro Aluno TIPADO";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<fieldset>
+    <legend>Exibe dados Aluno</legend>
+    <div>
+        <strong>id Aluno: </strong>@Model.idAluno
+    </div>
+
+    <div>
+        <strong>Nome Aluno: </strong>@Model.Nome
+    </div>
+
+    <div>
+        <strong>Email Aluno: </strong>@Model.Email
+    </div>
+
+</fieldset>
+

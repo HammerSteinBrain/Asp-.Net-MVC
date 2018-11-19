@@ -1,0 +1,42 @@
+﻿@model aspNetMVC_01.Models.ModAluno
+@*Aponta para o modelo que será usado na pagina, no caso .ModAluno*@
+
+@{
+    ViewBag.Title = "Cadastro Aluno";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+
+@*Criação do form (controler_alvo , controller ,null, metodo_form)*@
+@using (Html.BeginForm("ExibeCadastroAluno", "CadastroAluno", null, FormMethod.Post))
+{
+    <fieldset>
+        <legend>Cadastro Aluno</legend>
+
+        <div>
+            @Html.LabelFor(model => model.idAluno)
+        </div>
+        <div>
+            @Html.TextBoxFor(model => model.idAluno)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Nome)
+        </div>
+        <div>
+            @Html.TextBoxFor(model => model.Nome)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div>
+            @Html.TextBoxFor(model => model.Email)
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="salvar" />
+        </div>
+    </fieldset>
+}
