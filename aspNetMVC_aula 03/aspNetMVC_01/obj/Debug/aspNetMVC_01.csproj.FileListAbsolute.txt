@@ -180,3 +180,4 @@ C:\Users\rodrigo.alves\Desktop\Meus Projetos\aspNetMVC_aula 03\aspNetMVC_01\obj\
 C:\Users\rodrigo.alves\Desktop\Meus Projetos\aspNetMVC_aula 03\aspNetMVC_01\obj\Debug\aspNetMVC_01.csproj.CopyComplete
 C:\Users\rodrigo.alves\Desktop\Meus Projetos\aspNetMVC_aula 03\aspNetMVC_01\obj\Debug\aspNetMVC_01.dll
 C:\Users\rodrigo.alves\Desktop\Meus Projetos\aspNetMVC_aula 03\aspNetMVC_01\obj\Debug\aspNetMVC_01.pdb
+C:\Users\Rodrigo\Desktop\Asp-.Net-MVC\aspNetMVC_aula 03\aspNetMVC_01\bin\System.Web.Mvc.xml
